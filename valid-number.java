@@ -23,7 +23,7 @@ class Solution {
                 pointSeen = true;
             }
             
-            // e can not come after e and can only come a number
+            // e can not come after e and can only come after a number
             else if(c == 'e'){
                 if(eSeen || !numberSeen) return false;
                 
